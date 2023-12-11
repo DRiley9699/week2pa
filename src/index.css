@@ -13,6 +13,7 @@ body {
     border-radius: 5px;
     object-fit: cover;
     color: #FFFFFF;
+    height: 400px;
 }
 
 #homeDiv {
@@ -20,6 +21,7 @@ body {
     border-radius: 5px;
     object-fit: cover;
     color: #FFFFFF;
+    height: 400px;
 }
 
 #otherDiv {
@@ -27,6 +29,7 @@ body {
     border-radius: 5px;
     object-fit: cover;
     color: #FFFFFF;
+    height: 400px;
 }
 
 h1, h2, p,
@@ -45,14 +48,14 @@ ul.header li {
 }
 
 ul.header {
-    background-color: #545e95;
+    background-image: url(Style\ background.jpg);
     padding: 0;
     border-radius: 5px;
     text-align: center;
 }
 
 ul.header li a {
-    color: #000000;
+    color: #f5c242;
     font-weight: bold;
     text-decoration: none;
     padding: 20px;
@@ -60,10 +63,11 @@ ul.header li a {
 }
 
 .content {
-    background-color: #c5a834;
-    border: 5px solid rbga(245, 194, 66, 100%);
+    border: 2px solid #f5c242;
     border-radius: 0 0 5px 5px;
     padding: 20px;
+    margin: 20px;
+    height: 400px;
 }
 
 .content h2 {
@@ -75,7 +79,16 @@ ul.header li a {
     margin-bottom: 10px;
 }
 
+.product {
+    margin: 5px;
+    display: inline-block;
+    height: 200px;
+    width: 30%;
+    border:2px solid #f5c242;
+}
+
 .active {
-    background-color: #D6C996;
+    background-color: #040404;
+    opacity: 50%;
     border-radius: 5px;
 }

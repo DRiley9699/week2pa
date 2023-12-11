@@ -4,12 +4,15 @@ import React, {Component} from "react";
                 render() {
     return (
             <div id="homeDiv">
-                <h2>HELLO!</h2>
-                <p>Welcome to my ! I hope you like it!</p>
-            <p>My name is <strong>##### #####</strong> I'm a current CIS student and aspiring artist/animatior!</p>
+                <h2>Your one-stop-shop for EVEYTHING Gundam!</h2>
+            <p>Below you will find a broad selection of Gundam kits, build tools,
+            and accessories to make each build special and unique to you!</p>
+            <div class="product"></div>
+            <div class="product"></div>
+            <div class="product"></div>
             </div>
             );
   }
 }
 
-            export default Home;
+export default Home;
