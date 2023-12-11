@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Contact extends Component {
     render() {
         return (
-            <div>
+            <div id="conDiv">
                 <h2>GOT QUESTIONS?</h2>
                 <p>Contact me @ <em><strong>###-###-####</strong></em> or <em><strong>email@website.com</strong></em>
                 </p>
